@@ -1,1 +1,19 @@
+site_name: Base de Conhecimento
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - toc.integrate
+  palette:
+    primary: green
+    accent: lime
+
+nav:
+  - Início: index.md
+  - Tutoriais:
+      - Acesso ao Google Sala de Aula: tutorial/google-sala-de-aula.md
+      - Entrega de Tarefas: tutorial/entrega-de-tarefas.md
+
+extra_css:
+  - assets/stylesheets/extra.css
 
