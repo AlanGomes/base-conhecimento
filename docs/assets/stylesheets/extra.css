@@ -1,0 +1,15 @@
+/* Remove cabeçalho/rodapé */
+.md-header, .md-footer {
+  display: none;
+}
+
+/* Centraliza conteúdo em largura confortável */
+.md-main {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Deixa background da navegação lateral limpo */
+.md-nav {
+  background: white;
+}
